@@ -1,0 +1,231 @@
+/* Main content area */
+.main {
+    background-color: black;
+}
+
+/* Bottom section (chat input area) */
+.stChatFloatingInputContainer {
+    background-color: black !important;
+}
+
+/* Additional styling for chat input */
+.stChatInputContainer {
+    background-color: black !important;
+}
+
+/* Overall app background */
+.stApp {
+    background-color: black;
+}
+
+/* Target the bottom container more specifically */
+[data-testid="stChatFloatingInputContainer"] {
+    background-color: black !important;
+}
+
+/* Target the input wrapper */
+[data-testid="stChatInput"] {
+    background-color: black !important;
+}
+
+/* Target all bottom elements */
+.stBottom {
+    background-color: black !important;
+}
+
+/* Target the chat message input container */
+section[data-testid="stChatFloatingInputContainer"] {
+    background-color: black !important;
+}
+
+/* Remove any default backgrounds */
+.stChatFloatingInputContainer > div {
+    background-color: black !important;
+}
+
+/* Target specific emotion cache class */
+.st-emotion-cache-128upt6 {
+    background-color: black !important;
+}
+
+/* Increase input box width */
+[data-testid="stChatInput"] {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.stChatInputContainer {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.st-emotion-cache-128upt6 {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Increase the container width */
+section[data-testid="stChatFloatingInputContainer"] {
+    max-width: 95% !important;
+    width: 95% !important;
+    margin: 0 auto !important;
+}
+
+/* Change input box background to gray */
+[data-testid="stChatInput"] textarea {
+    background-color: gray !important;
+}
+
+.stChatInputContainer textarea {
+    background-color: gray !important;
+}
+
+input[type="text"] {
+    background-color: gray !important;
+}
+
+textarea {
+    background-color: gray !important;
+}
+
+/* Target specific emotion cache class for gray background */
+.st-emotion-cache-yd4u6l {
+    background-color: gray !important;
+}
+
+/* Target app header classes for black background */
+.stAppHeader {
+    background-color: black !important;
+}
+
+.st-emotion-cache-1ffuo7c {
+    background-color: black !important;
+}
+
+.e3g0k5y1 {
+    background-color: black !important;
+}
+
+[data-testid="stAppHeader"] {
+    background-color: black !important;
+}
+
+/* Change all text color to white */
+body, p, span, div, h1, h2, h3, h4, h5, h6, li, label, a {
+    color: white !important;
+}
+
+.stMarkdown, .stMarkdown p, .stMarkdown span {
+    color: white !important;
+}
+
+.stChatMessage, .stChatMessage p, .stChatMessage span {
+    color: white !important;
+}
+
+/* Title and headers */
+.stTitle, h1, h2, h3 {
+    color: white !important;
+}
+
+/* Sidebar text */
+.st-emotion-cache-16idsys p, .st-emotion-cache-16idsys span {
+    color: white !important;
+}
+
+/* All text elements */
+* {
+    color: white !important;
+}
+
+/* Sidebar background color */
+[data-testid="stSidebar"] {
+    background-color: gray !important;
+}
+
+.stSidebar {
+    background-color: gray !important;
+}
+
+section[data-testid="stSidebar"] > div {
+    background-color: gray !important;
+}
+
+/* Chat input text and placeholder color */
+[data-testid="stChatInput"] textarea {
+    color: white !important;
+}
+
+[data-testid="stChatInput"] textarea::placeholder {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+textarea::placeholder {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+.stChatInputContainer textarea {
+    color: white !important;
+}
+
+.stChatInputContainer textarea::placeholder {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+/* Button color to black */
+.st-emotion-cache-1cl4umz {
+    background-color: black !important;
+}
+
+/* Increase max-width for specific element */
+.st-emotion-cache-1cei9z1 {
+    max-width: 1000px !important;
+}
+
+.st-emotion-cache-6shykm {
+    max-width: 1000px !important;
+}
+
+/* Increase font size globally */
+body, p, span, div, li, label, a {
+    font-size: 20px !important;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+}
+
+h2 {
+    font-size: 2rem !important;
+}
+
+h3 {
+    font-size: 1.75rem !important;
+}
+
+.stMarkdown, .stMarkdown p {
+    font-size: 20px !important;
+}
+
+.stChatMessage {
+    font-size: 20px !important;
+}
+
+/* Ensure bold text is visible and properly styled */
+strong, b {
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.stMarkdown strong, .stMarkdown b {
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.stChatMessage strong, .stChatMessage b {
+    font-weight: bold !important;
+    color: white !important;
+}
