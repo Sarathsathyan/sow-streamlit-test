@@ -145,7 +145,7 @@ with st.sidebar:
                     st.rerun()
             
             # Show message count
-            st.caption(f"📊 {chat['count']} messages")
+            st.caption(f" {chat['count']} messages")
             st.divider()
     else:
         st.info("No chat history yet. Start a conversation!")
@@ -153,7 +153,7 @@ with st.sidebar:
     st.divider()
     
     # Current Chat Info
-    st.header("📊 Current Chat")
+    st.header("Current Chat")
     if st.session_state.thread_id:
         st.write(f"**Thread ID:** `{st.session_state.thread_id[:12]}...`")
         st.write(f"**Messages:** {st.session_state.conversation_count}")

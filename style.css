@@ -191,7 +191,7 @@ textarea::placeholder {
 
 /* Increase font size globally */
 body, p, span, div, li, label, a {
-    font-size: 20px !important;
+    font-size: 15px !important;
 }
 
 h1 {
@@ -207,11 +207,11 @@ h3 {
 }
 
 .stMarkdown, .stMarkdown p {
-    font-size: 20px !important;
+    font-size: 15px !important;
 }
 
 .stChatMessage {
-    font-size: 20px !important;
+    font-size: 15px !important;
 }
 
 /* Ensure bold text is visible and properly styled */
